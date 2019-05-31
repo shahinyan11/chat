@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+}
+
+.my_navbar{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    color: white
+
+}
+.my_navbar *{
+
+    color: white
+
+}
+
+.my_navbar .my_left {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(33, 33, 32);
+    border-right-style: solid;
+    border-right-width: 5px;
+    border-right-color: rgb(138, 140, 142);
+    padding: 50px 0;
+    overflow: hidden;
+
+}
+
+.my_navbar .my_left .active {
+
+    background-color: rgb(23, 147, 181)
+
+}
+
+.my_navbar .my_left i {
+    padding: 10px 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.my_navbar .my_right .call_icons {
+    display: flex;
+}
+
+.my_navbar .my_right {
+    height: 100%;
+    width: 70%;
+    background-color: black;
+}
+
+.my_navbar .my_right .figure {
+height: 50px;
+width: 50px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+
+.my_navbar .my_right .my_dropDown{
+    display: flex;
+    align-items: center;
+    margin: 20 10;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: rgb(138, 140, 142)
+
+}
+
+.my_navbar .my_right .my_dropDown div.online{
+    margin: 10;
+    width: 10;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.my_navbar .my_right .my_dropDown .dropdown .btn-success{
+    background-color: black;
+    border: 0px;
+    border-color: black;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
+.my_navbar .my_right .my_dropDown .dropdown .btn-success:focus{
+    background-color: black;
+    border: 0px;
+    border-color: black;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+.my_navbar .my_right .my_dropDown .dropdown .dropdown-menu{
+    background-color: black;
+
+}
+.my_navbar .my_right .my_dropDown .avatar{
+    background-color: black;
+}
+
+
+.my_content{
+    width: 65%;
+    padding: 0px 20px;
+    background-color: rgb(33, 33, 32);
+}
+
+.my_content *{
+    color: white;
+}
+
+
+.my_content .post_item{
+    padding: 20px 5px;
+    max-height: 1500px;
+}
+.my_content .my_image_content{
+    width: 100%;
+}
+
+
+.my_content .my_image_content img{
+    width: 100%;
+}
+
+.my_right_bar {
+    width: 15%;
+    background-color: black;
+    height: 100%;
+}
+
+.my_right_bar *{
+
+    color: white
+
+}
+
+.my_right_bar .row {
+    padding: 10px 5px;
+}
+
+.my_right_bar .row div{
+    border: 1px solid black;
+}
+
+.message_bord {
+    width: 100%;
+    height: 95%;
+}
+
+.send_bord {
+    display: flex;
+    width: 100%;
+}
+.send_bord .message {
+    width: 90%;
+}
+
+
+.send_bord .message input {
+    width: 100%;
+    /*background-color: gray;*/
+}
+
+.online_users ul li{
+    display: flex;
+    justify-content: space-around;
+}
